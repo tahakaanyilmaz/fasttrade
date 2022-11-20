@@ -2,5 +2,9 @@
 @tailwind components;
 
 /* Custom CSS */
+.container
+{
+    @apply max-w-[1366px] mx-auto;
+}
 
 @tailwind utilities;
